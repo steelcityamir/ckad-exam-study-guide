@@ -15,11 +15,23 @@ A `default` namespace always exists.
 ```bash
 kubectl get namespace
 ```
+Output:
+<pre data-no-copy>
+NAME              STATUS   AGE
+default           Active   32d
+kube-node-lease   Active   32d
+kube-public       Active   32d
+kube-system       Active   32d
+</pre>
 
 ### Create a namespace
 ```bash
 kubectl create namespace dev
 ```
+Output:
+<pre data-no-copy>
+namespace/dev created
+</pre>
 
 ### Switch the current namespace
 ```bash
