@@ -23,6 +23,11 @@ k create configmap db-config --from-literal=ENV=production --from-literal=DB_HOS
 k describe configmap db-config
 ```
 
+### Edit a ConfigMap
+```bash
+k edit configmap db-config
+```
+
 ### Configure a Pod to Use a ConfigMap
 
 YAML file:
