@@ -14,3 +14,11 @@ Study guide for the Certified Kubernetes Application Developer (CKAD) exam.
 ## Contents
 
 - [Namespaces](namespaces.md)
+- [Pods](pods.md)
+- [ReplicaSets](replicasets.md)
+- [Deployments](deployments.md)
+- [Services](services.md)
+- [ConfigMaps](configmaps.md)
+- [Secrets](secrets.md)
+- [Taints and Tolerations](taints-tolerations.md)
+  
