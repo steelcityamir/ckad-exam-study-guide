@@ -18,12 +18,12 @@ kubectl get namespace
 
 ### Create a namespace
 ```bash
-kubectl create namespace dev-ns
+kubectl create namespace dev
 ```
 
 ### Switch the current namespace
 ```bash
-kubectl config set-context --current --namespace=dev-ns
+kubectl config set-context --current --namespace=dev
 ```
 
 ### Show the current namespace
