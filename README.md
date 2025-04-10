@@ -7,4 +7,4 @@ Study guide for the Certified Kubernetes Application Developer (CKAD) exam.
 - Questions can be answered in any order.
 - The `--help` switch provides more information on command usage.
 - You do have access to K8s documentation.
-- `When deleting a pod, use `--force` to delete it quicker.
+- When deleting a pod, use `--force` to delete it quicker.
