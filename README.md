@@ -1,5 +1,5 @@
 # CKAD Exam Study Guide
-Study guide for the Certified Kubernetes Application Developer (CKAD) exam.
+Study guide for the [Certified Kubernetes Application Developer (CKAD)](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/) exam.
 
 ## Exam Tips
 - You have 2 hours to complete 15-20 tasks.
