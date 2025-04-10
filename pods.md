@@ -17,7 +17,7 @@ kubectl get pod
 
 ### List pods in marketing namespace
 ```bash
-kubectl get pod -n=marketing
+kubectl get pod -n=dev
 ```
 
 ### List pods in all namespaces
