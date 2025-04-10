@@ -25,3 +25,8 @@ kubectl create namespace dev-ns
 ```bash
 kubectl config set-context --current --namespace=dev-ns
 ```
+
+### Show the current namespace
+```bash
+kubectl config get-contexts
+```
