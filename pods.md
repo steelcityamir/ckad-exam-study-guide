@@ -18,7 +18,7 @@ k get pod
 k get pod -n=marketing
 ```
 
-#### List pods in all namespaces
+### List pods in all namespaces
 ```bash
 k get pod --all-namespaces
 ```
@@ -33,6 +33,11 @@ k run redis --image=redis
 k describe pod redis
 ```
 
+### Delete a pod
+```bash
+k delete pod redis --force
+```
+
 ### Generate a pod definition yaml file for redis
 ```bash
 k run redis --image=redis --dry-run=client -o yaml > redis.yaml
@@ -41,4 +46,9 @@ k run redis --image=redis --dry-run=client -o yaml > redis.yaml
 ### Generate a pod definition yaml file from a running pod
 ```bash
 k get pod webapp-color -o yaml > pod.yaml
+```
+
+### Create a pod from YAML
+```bash
+k create -f pod.yaml
 ```
