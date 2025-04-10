@@ -7,17 +7,19 @@ Namespaces create separate environments within a Kubernetes cluster, preventing 
 
 A `default` namespace always exists.
 
-## List namespaces
+## Helpful commands
+
+### List namespaces
 ```bash
 k get ns
 ```
 
-## Create a namespace
+### Create a namespace
 ```bash
 k create ns dev-ns
 ```
 
-## Switch the current namespace
+### Switch the current namespace
 ```bash
 k config set-context --current --namespace=dev-ns
 ```
