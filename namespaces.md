@@ -13,15 +13,15 @@ A `default` namespace always exists.
 
 ### List namespaces
 ```bash
-k get ns
+kubectl get namespace
 ```
 
 ### Create a namespace
 ```bash
-k create ns dev-ns
+kubectl create namespace dev-ns
 ```
 
 ### Switch the current namespace
 ```bash
-k config set-context --current --namespace=dev-ns
+kubectl config set-context --current --namespace=dev-ns
 ```
