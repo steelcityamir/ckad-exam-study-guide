@@ -7,10 +7,20 @@
 
 ## Helpful commands
 
-### Create a config map with variables
+### List ConfigMaps
+```bash
+k get configmap
+```
+
+### Create a ConfigMap with variables
 
 ```bash
-k create configmap my-config --from-literal=ENV=production --from-literal=LOG_LEVEL=debug
+k create configmap db-config --from-literal=ENV=production --from-literal=DB_HOST=sql01.example.com
+```
+
+### View a ConfigMap
+```bash
+k describe configmap db-config
 ```
 
 ### Configure a Pod to Use a ConfigMap
