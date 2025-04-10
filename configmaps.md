@@ -9,23 +9,23 @@
 
 ### List ConfigMaps
 ```bash
-k get configmap
+kubectl get configmap
 ```
 
 ### Create a ConfigMap with variables
 
 ```bash
-k create configmap db-config --from-literal=ENV=production --from-literal=DB_HOST=sql01.example.com
+kubectl create configmap db-config --from-literal=ENV=production --from-literal=DB_HOST=sql01.example.com
 ```
 
 ### View a ConfigMap
 ```bash
-k describe configmap db-config
+kubectl describe configmap db-config
 ```
 
 ### Edit a ConfigMap
 ```bash
-k edit configmap db-config
+kubectl edit configmap db-config
 ```
 
 ### Configure a Pod to Use a ConfigMap
