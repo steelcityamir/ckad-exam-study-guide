@@ -1,5 +1,5 @@
 # Namespaces
-Namespaces create separate environments within a Kubernetes cluster, preventing resource conflicts.
+Namespaces create separate logical environments within a Kubernetes cluster, preventing resource conflicts.
 
 - Resources must have unique names within a namespace but can share names across namespaces.
 - Helps organize workloads for different teams, applications, or environments (e.g., dev, test, prod).
