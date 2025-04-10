@@ -10,9 +10,7 @@
 ### Create a config map with variables
 
 ```bash
-k create configmap my-config \
-  --from-literal=ENV=production \
-  --from-literal=LOG_LEVEL=debug
+k create configmap my-config --from-literal=ENV=production --from-literal=LOG_LEVEL=debug
 ```
 
 ### Configure a Pod to Use a ConfigMap
