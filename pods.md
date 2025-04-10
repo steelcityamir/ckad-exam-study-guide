@@ -6,6 +6,8 @@ A pod can have one or more containers that share storage and networking.
 
 Pods are ephemeral — if a pod dies, it's gone unless managed by a controller.
 
+![image](https://github.com/user-attachments/assets/5377a21d-5611-47f3-951b-b5fc5b325b33)
+
 ## Helpful commands
 
 ### List pods in current namespace
