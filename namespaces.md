@@ -7,6 +7,8 @@ Namespaces create separate environments within a Kubernetes cluster, preventing 
 
 A `default` namespace always exists.
 
+![image](https://github.com/user-attachments/assets/19c5ca85-5cff-455b-91e2-fe5f19b2e156)
+
 ## Helpful commands
 
 ### List namespaces
