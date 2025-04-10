@@ -11,6 +11,9 @@ Study guide for the [Certified Kubernetes Application Developer (CKAD)](https://
 - To save time, create an alias for `kubectl` using `alias k=kubectl`.
 - Don’t write YAML file for any questions from scratch. Instead, copy the YAML examples from official docs or use `--dry-run=client -o yaml`.
 
+## Running K8s locally
+You can use [minikube](https://minikube.sigs.k8s.io/docs/start/) to run Kubernetes on your machine.
+
 ## Contents
 
 - [Namespaces](namespaces.md)
