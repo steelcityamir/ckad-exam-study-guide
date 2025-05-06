@@ -24,4 +24,5 @@ To practice commands, you can use [minikube](https://minikube.sigs.k8s.io/docs/s
 - [ConfigMaps](configmaps.md)
 - [Secrets](secrets.md)
 - [Taints and Tolerations](taints-tolerations.md)
+- [Network Policies](network-policies.md)
   
